@@ -1,0 +1,27 @@
+
+
+
+
+	- dari lokal koding > di push ke git (repo) > di netlify, konek ke github (repo) (create web)
+	- di push ke repo materi yang ada di local komputer.
+ 		- Sesi-01 > koding,dokument yg dipelajari disetiap pertemuan/sesi
+  
+  
+    - Sesi-02 > dst
+    - Sesi-03
+    - dst
+  > jika konflik > git stash|cek hisotry
+  push dan pull
+ - batch10_web_programming_kp
+- netlify (sesi 7 s.d 8):
+- register (rekomendasi jika pny email student, gunakan email student untuk registrasi)
+- repository :
+----
+------ clue sesi 3 -------
+1. INPG-PKJ-10-015 | I DEWA GEDE ARI OKA	
+2. INPG-PKJ-10-042 | Anthony Natanael
+3. INPG-PKJ-10-042 | Rama Wahyu Hermawan
+github - jika blm ada akun github
+kode peserta | nama lengkap | 
+latihan dan tugas sesi 02 | batch 10
+yang sudah selesai sesi 2 teori dan tugas :
