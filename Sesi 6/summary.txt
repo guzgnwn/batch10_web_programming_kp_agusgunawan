@@ -1,0 +1,18 @@
+summary sesi 05
+---
+
+- belajar tentang DOM
+- belajar menggunakan DOM
+- belajar mengakses elemen tertentu dengan DOM
+- belajar membuat elemen dengan DOM API
+- belajar menghapus elemen dengan DOM API
+- mengerjakan latihan DOM
+- belajar tentang REGEX
+- belajar cara membuat REGEX object
+- mengenal REGEX object method
+    1. method regex.prototype.test()
+    2. method regex.prototype.exec()
+        - pola reguler expression
+        - pola regex sebagai string
+        - pola character set
+- menyelesaikan tugas

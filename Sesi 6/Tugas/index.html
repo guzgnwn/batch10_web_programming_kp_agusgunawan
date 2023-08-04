@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>INPG-PKJ-10-017-AgusGunawan-Sesi06</title>
+  </head>
+  <body>
+
+    <!-- Teks Konten -->
+    <h1 style="text-align: center;">Agus Gunawan</h1>
+    <h2 style="text-align: center;">INPG-PKJ-10-017</h2>
+    <hr>
+    <p id="p1" style="text-align: center;">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quaerat
+      recusandae qui ullam eaque cumque ea fugit, debitis commodi ipsum illo
+      dolorum consequatur sed laudantium suscipit quis magni, maiores in?
+    </p>
+    <p id="p2" style="text-align: center;">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quaerat
+      recusandae qui ullam eaque cumque ea fugit, debitis commodi ipsum illo
+      dolorum consequatur sed laudantium suscipit quis magni, maiores in?
+    </p>
+    <p id="p3" style="text-align: center;">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quaerat
+      recusandae qui ullam eaque cumque ea fugit, debitis commodi ipsum illo
+      dolorum consequatur sed laudantium suscipit quis magni, maiores in?
+    </p>
+
+    <script>
+
+      // Deklarasi Variabel
+      var interval, timeout;
+      var p1 = document.getElementById("p1")
+      var p2 = document.getElementById("p2")
+      var p3 = document.getElementById("p3")
+
+      // Deklarasi Function
+      ubahWarna();
+
+      // Function Config Set Interval & Timeout
+      function ubahWarna() {
+        interval = setInterval(warnaTeks, 600);
+        timeout = setTimeout(berhenti, 6000);
+      }
+
+      // Function Warna Teks
+      function warnaTeks() {
+        p1.style.color = p1.style.color == "red" ? "black" : "red";
+        p2.style.color = p2.style.color == "green" ? "black" : "green";
+        p3.style.color = p3.style.color == "blue" ? "black" : "blue";
+      }
+      
+      // Function Berhenti
+      function berhenti() {
+        if (interval) {
+          clearInterval(interval);
+          console.log("clear interval");
+        }
+        if (timeout) {
+          clearInterval(timeout);
+          console.log("clear timeout");
+        }
+      }
+
+    </script>
+  </body>
+</html>

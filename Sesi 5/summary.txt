@@ -1,0 +1,9 @@
+summary sesi 05
+---
+
+- belajar tentang input JS
+- belajar tentang function & event JS
+- belajar operator aritmatika
+- belajar variabel JS
+- belajar tentang tipe data JS
+- menyelesaikan tugas
