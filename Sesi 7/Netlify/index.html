@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hello World</title>
+  </head>
+  <body>
+    <div
+      style="
+        background-color: aqua;
+        color: darkblue;
+        padding: 10px;
+        border-radius: 10px;
+      "
+    >
+      <h1>Nama : Agus Gunawan</h1>
+      <p>Ngoding HTML</p>
+      Cek Inspect | Cek Console
+    </div>
+    <!-- push netlify -->
+    <p
+      style="
+        text-align: center;
+        color: darkgreen;
+        text-transform: capitalize;
+        font-weight: 900;
+      "
+    >
+      Push github, then push netlify
+    </p>
+
+    <script>
+      function helloName(params) {
+        // wajib nama Agus
+        var nama = "Agus";
+        if (params == nama) {
+          return `Hello ${params}`;
+        } else {
+          return `Anda bukan ${nama}`;
+        }
+        // jika di dalam function pnya kondisi yang bercabang, berpengaruh pada output
+      }
+    // ini console agus   
+      console.log(helloName("Agus"));
+    // ini console bukan agus
+      console.log(helloName("Bukan Agus"));
+
+    </script>
+  </body>
+</html>
