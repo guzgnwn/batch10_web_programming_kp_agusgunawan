@@ -1,0 +1,42 @@
+
+---- sesi 08 | final project ----
+
+
+
+1. buat landing pages
+    menu :
+        a. About
+        b. Experiences
+        c. Education
+        d. Skills
+        e. Interests
+        f. Award 
+    (boleh di improve > ditambahkan / jangan dikurangin menunya)
+2. style > free
+    > boleh gunakan template
+        > bootstrap
+        > tailwind
+        > free template
+            > single pages
+            > multi pages
+    > boleh custom (modified)
+    > build sendiri template
+3. wajib push di repository 
+    - github (rekomendasi)
+    - bitbucket
+    - gitlab
+    > deployment > netlify, github pages, firebase, hosting free lainnya
+    > ada terkendala di netlify :
+        - bisa gunakan github pages
+            > index.html
+                > menuju sesi 7
+                > menuju sesi 8
+                > menuju final project
+        - link url yang sudah di production/deployment    
+4. batas waktu jumat malam sabtu (23.59)
+
+format pengiriman :
+- koding
+- url 
+- summary/panduan
+format nama : kodepeserta_nama_final_project
